@@ -1,14 +1,14 @@
 /*#region Common */
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 /*#endregion Common */
 /*#region Utilities */
-.debug{
+.debug {
     background-color: red;
 }
 
@@ -16,50 +16,96 @@ box-sizing: border-box;
 
 /*#region Body components */
 /*#region Header */
-header{
+header {
     background-color: lightblue;
     height: 50px;
 }
 
-.container{
+.container {
     width: 80%;
-    height: 100%;
+    max-width: 1170px;
     margin: auto;
-    background-color: rgb(0, 139, 219);
+    border: dashed 1px;
 }
 
-.header-row{
+.header-row {
+    width: 100%;
     display: flex;
     justify-content: space-around;
+
     padding-top: 0.5rem;
 }
-    
-.header-col{
+
+.header-col {
     background-color: rgb(255, 60, 0);
     width: calc(100% / 3);
     height: 2rem;
     border: 1px dashed;
 
+
 }
 
-.header-col:nth-child(2){
+.header-col:nth-child(2) {
     width: 66%;
 }
+
 /*#endregion Header */
 
-.hero-row{
+/*#region hero  */
+.hero-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px ;
-    width: 100%;  
+    min-height: 200px;
+    background-color: cornflowerblue;
 }
 
-    .hero{
-        max-width: 50%;
-        min-height: 50%;
+.hero {
+    width: 50%;
+    height: 150px;
+    background-color: rgb(0, 73, 209);
+}
+
+/*#endregion hero  */
+
+
+/*#region section  */
+.row, .row-reverse{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    background-color: yellow;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    
     }
 
+
+.row-reverse{
+    flex-direction: row-reverse;
+    
+    
+   
+    
+    
+    
+}
+.col60 {
+    width: 60%;
+    height: 220px;
+    background-color: green;
+    margin: 1rem;
+
+}
+
+.col40 {
+    width: 40%;
+    height: 220px;
+    background-color: green;
+    margin: 1rem
+    
+}
+
+/*#region section  */
 /*#endregion Body components */
-
-
