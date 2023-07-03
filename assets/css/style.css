@@ -1,5 +1,73 @@
+/*#region Common */
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+body{
+    max-width: 1170px;
+}
+/*#endregion Common */
+/*#region Utilities */
+.debug{
+    background-color: red;
+}
+
+/*#endregion Utilities */
+
+/*#region Body components */
+/*#region Header */
+header{
+    background-color: lightblue;
+    height: 50px;
+}
+
+.header-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(0, 139, 219);
+}
+
+.header-row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+}
+    
+.header-col{
+    background-color: rgb(255, 60, 0);
+    width: calc(100% / 3);
+    height: 2rem;
+    border: 1px dashed;
+
+}
+
+.header-col:nth-child(2){
+    width: 66%;
+}
+/*#endregion Header */
+
+.hero-container{
+width: 80%;
+height: 200px;
+background-color: rgb(0, 119, 255);
+margin: auto;
+
+}
+
+.hero-row{
+    display: flex;
+    justify-content: center;
+    
+    }
+
+    .hero{
+        
+        max-width: 66%;
+    }
+
+/*#endregion Body components */
+
+
