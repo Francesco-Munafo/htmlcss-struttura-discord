@@ -105,7 +105,7 @@ header{
 
 .footer-grid{
     max-width: 100%;
-    padding-top: 80px;
+    height: 400px;
     
     
 }
@@ -125,9 +125,26 @@ header{
 
 .footer-col{
     width: calc(80% / 4);
-    min-height: 80%; 
-     
+    min-height: 90%; 
+    margin: 0.5rem;
     background-color: green;
 }
 
+footer{
+    background-color: cornflowerblue;
+}
+.page-bottom-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.page-bottom-col{
+    background-color: rgb(255, 60, 0);
+    width: 100px;
+    height: 1.5rem;
+    border: 1px dashed;
+}
 /*#endregion section */
