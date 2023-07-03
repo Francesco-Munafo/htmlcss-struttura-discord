@@ -9,7 +9,8 @@
     width: 80%;
     max-width: 1170px;
     margin: auto;
-    border: dashed 1px;}
+    }
+    
 
 /*#endregion Common */
 /*#region Utilities */
@@ -50,7 +51,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    min-height: 300px;
     background-color: cornflowerblue;
 }
 
@@ -102,8 +103,31 @@ header{
     margin-bottom: 5rem;
 }
 
-.footer-col{
+.footer-grid{
+    max-width: 100%;
+    padding-top: 80px;
     
+    
+}
+.footer-row{
+    width: 80%;
+    display: flex;
+
+}
+.footer-col:first-child{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+}
+    
+    
+    
+
+.footer-col{
+    width: calc(80% / 4);
+    min-height: 80%; 
+     
+    background-color: green;
 }
 
 /*#endregion section */
