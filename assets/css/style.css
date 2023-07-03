@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    border: dashed 1px;
 
 /*#endregion Common */
 /*#region Utilities */
-.debug {
+.debug{
     background-color: red;
 }
 
@@ -21,11 +26,7 @@ header {
     height: 50px;
 }
 
-.container {
-    width: 80%;
-    max-width: 1170px;
-    margin: auto;
-    border: dashed 1px;
+
 }
 
 .header-row {
@@ -41,8 +42,6 @@ header {
     width: calc(100% / 3);
     height: 2rem;
     border: 1px dashed;
-
-
 }
 
 .header-col:nth-child(2) {
@@ -52,7 +51,7 @@ header {
 /*#endregion Header */
 
 /*#region hero  */
-.hero-row {
+.hero-row, .footer-grid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,35 +76,38 @@ header {
     background-color: yellow;
     height: 100%;
     margin-top: 1rem;
-    margin-bottom: 5rem;
-    
+    margin-bottom: 5rem;   
     }
 
-
-.row-reverse{
-    flex-direction: row-reverse;
-    
-    
-   
-    
-    
-    
+    .row-reverse{
+    flex-direction: row-reverse;   
 }
+
 .col60 {
     width: 60%;
     height: 220px;
     background-color: green;
     margin: 1rem;
-
 }
 
 .col40 {
     width: 40%;
     height: 220px;
     background-color: green;
-    margin: 1rem
-    
+    margin: 1rem    
 }
 
-/*#region section  */
+.bigrow{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    background-color: yellow;
+    height: 500px;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+/*#endregion section  */
+
+
 /*#endregion Body components */
