@@ -22,13 +22,14 @@
 /*#region Header */
 header{
     background-color: lightblue;
-    height: 50px;}
+}
 
 .header-row {
     width: 100%;
     display: flex;
     justify-content: space-around;
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .header-col {
@@ -99,6 +100,10 @@ header{
     height: 500px;
     margin-top: 1rem;
     margin-bottom: 5rem;
+}
+
+.footer-col{
+    
 }
 
 /*#endregion section */
